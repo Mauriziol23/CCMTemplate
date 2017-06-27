@@ -1640,12 +1640,14 @@ Mau-col {
 
 .w3-text-white,
 .w3-hover-text-white:hover {
-    color: #fff!important
+    color: #fff!important;
+    font-style: bold;
 }
 
 .w3-text-black,
 .w3-hover-text-black:hover {
-    color: #000!important
+    color: #000!important;
+    font-style: bold;
 }
 
 .w3-text-grey,

@@ -27,8 +27,9 @@
     .bgimg-1 {
         background-position: center;
         background-size: cover;
-        background-image: url("images/wood.jpg");
-        min-height: 100%;
+        background-image: url("images/ccmcoffee.jpg");
+        min-height: 75%;
+        opacity: 0.98;
     }
 
     .Mau-bar .Mau-button {
@@ -45,9 +46,9 @@
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
                 <a href="#about" class="Mau-bar-item Mau-button">ABOUT</a>
-                <a href="#team" class="Mau-bar-item Mau-button"><i class="fa fa-user"></i> TEAM</a>
+                <a href="#Personal" class="Mau-bar-item Mau-button"><i class="fa fa-user"></i> PERSONAL</a>
                 <a href="#work" class="Mau-bar-item Mau-button"><i class="fa fa-th"></i> WORK</a>
-                <a href="#pricing" class="Mau-bar-item Mau-button"><i class="fa fa-usd"></i> PRICING</a>
+                <!--<a href="#pricing" class="Mau-bar-item Mau-button"><i class="fa fa-usd"></i> PRICING</a>-->
                 <a href="#contact" class="Mau-bar-item Mau-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -63,18 +64,18 @@
         id="mySidebar">
         <a href="javascript:void(0)" onclick="w3_close()" class="Mau-bar-item Mau-button w3-large w3-padding-16">Close &times;</a>
         <a href="#about" onclick="w3_close()" class="Mau-bar-item Mau-button">ABOUT</a>
-        <a href="#team" onclick="w3_close()" class="Mau-bar-item Mau-button">TEAM</a>
+        <a href="#Personal" onclick="w3_close()" class="Mau-bar-item Mau-button">PERSONAL</a>
         <a href="#work" onclick="w3_close()" class="Mau-bar-item Mau-button">WORK</a>
-        <a href="#pricing" onclick="w3_close()" class="Mau-bar-item Mau-button">PRICING</a>
+        <!--<a href="#pricing" onclick="w3_close()" class="Mau-bar-item Mau-button">PRICING</a>-->
         <a href="#contact" onclick="w3_close()" class="Mau-bar-item Mau-button">CONTACT</a>
     </nav>
 
     <!-- Header with full-height image -->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-left w3-text-white" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small">Cafe Con Mau</span><br>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
-            <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+        <div class="w3-display-left w3-text-black" style="padding:48px">
+            <span class="w3-jumbo w3-hide-small mau-faded-grey">Cafe Con Mau</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium mau-faded-grey">Cafe Con Mau</span><br>
+            <!--<span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>-->
             <p><a href="#about" class="Mau-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Who is Mau?</a></p>
         </div>
 
@@ -109,13 +110,15 @@
 
 
     <!-- Promo Section - "We know design" -->
-    <div class="w3-container w3-light-grey" style="padding:50px 16px">
+    <div class="w3-container w3-light-grey" style="padding:50px 16px" id="Personal">
         <div class="w3-center">
 
-            <h3>We know design.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.
-            </p>
-            <p><a href="#work" class="Mau-button w3-black"><i class="fa fa-th">&nbsp;</i> View Our Works</a></p>
+            <h3>A little about Mau</h3>
+            <h6>Think twice, act once <br>From the begining, determination, creativity and sense of fullfilment have been the
+                core to what I do. I work in this industry to work with other like minded individuals, overcome challenges
+                and overall to create beautiful solutions.
+            </h6>
+            <p><a href="#work" class="Mau-button w3-black"><i class="fa fa-th">&nbsp;</i> View My Work</a></p>
 
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/SeM0crqft9s" frameborder="0" allowfullscreen></iframe>
@@ -142,7 +145,7 @@
     </div>-->
 
     <!-- Team Section -->
-    <div class="w3-container" style="padding:128px 16px" id="team">
+    <!--<div class="w3-container" style="padding:128px 16px">
         <h3 class="w3-center">THE TEAM</h3>
         <p class="w3-center w3-large">The ones who runs this company</p>
         <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
@@ -191,7 +194,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Promo Section "Statistics" -->
     <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
