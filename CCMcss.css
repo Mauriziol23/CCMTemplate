@@ -578,7 +578,7 @@ a {
     width: auto;
     border: none;
     outline: none;
-    display: block
+    display: block;
 }
 
 .Mau-bar .w3-dropdown-hover,
@@ -641,7 +641,8 @@ a {
 .w3-threequarter,
 .w3-quarter {
     float: left;
-    width: 100%
+    width: 100%;
+    object-fit: cover;
 }
 
 Mau-col {
@@ -717,7 +718,7 @@ Mau-col {
     }
     .w3-col.m6,
     .w3-half {
-        width: 49.99999%
+        width: 49.99999%;
     }
     .w3-col.m7 {
         width: 58.33333%
